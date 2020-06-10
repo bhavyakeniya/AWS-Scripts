@@ -7,6 +7,9 @@
 
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+#Lambda Runtime - Python 3.6
+
 import boto3
 ec2 = boto3.resource('ec2', region_name='ap-south-1')
 
