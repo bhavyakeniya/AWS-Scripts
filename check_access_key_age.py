@@ -1,5 +1,7 @@
 # Lambda function to check access keys older than the specified number of days
 
+#Lambda Runtime - Python 3.6
+
 
 import boto3, json, time, datetime, sys
 
